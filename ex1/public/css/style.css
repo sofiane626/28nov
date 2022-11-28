@@ -23,3 +23,15 @@ section:nth-child(4) li>a {
     font-size: 25px;
 }
 
+section:nth-child(5) h3+span {
+    color: blue;
+}
+
+section:nth-child(6) [alt="la-tartine"] {
+    border: solid black 1px;
+    border-radius: 50%;
+}
+
+section:nth-child(7) p:hover {
+    color: green;
+}
