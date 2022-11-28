@@ -137,13 +137,25 @@ h3 {
     background-size: 100%;
 }
 
-.img-11 {}
+.img-11 {
+    background-image: url(../images/bg_image_petite.jpg);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /* fin exo 05 background-size*/
 
 /* début exo 06 background-attachement*/
-.img-12 {}
+.img-12 {
+    background-image: url(../images/bg_image_petite.jpg);
+    background-attachment: fixed;
+}
 
-.img-13 {}
+.img-13 {
+    background-image: url(../images/bg_image_petite.jpg);
+    background-attachment: fixed;
+    background-size: 50%;
+}
 
 /* fin exo 06 background-attachement*/
