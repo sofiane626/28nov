@@ -1,9 +1,16 @@
-tr:nth-child(odd) {
-    background-color: blue;
-    border: auto;
-    padding: 10%;
+td {
+    border: 1px solid black;
+    padding: 15px;
 }
 
-td::first-letter::first-line {
-    font-size: larger
+tr:nth-child(odd) {
+    background-color: red;
+}
+
+tr:last-child {
+    color: white;
+}
+
+td:first-child:first-letter {
+    font-size: 25px;
 }
