@@ -1,0 +1,9 @@
+tr:nth-child(odd) {
+    background-color: blue;
+    border: auto;
+    padding: 10%;
+}
+
+td::first-letter::first-line {
+    font-size: larger
+}
