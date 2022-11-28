@@ -1,100 +1,149 @@
 /* début Aspect général */
-*{
+* {
     font-family: arial;
 }
-body{
+
+body {
     background-color: #f2f2f2;
     padding: 100px 0 200px 0;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-h1,h3{
+
+h1,
+h3 {
     color: #0d0d0d;
 }
-.container{
+
+.container {
     width: 70%;
     overflow: hidden;
     margin: 0 auto;
     margin-bottom: 35px;
 }
-.float-left{
+
+.float-left {
     float: left;
     margin-right: 20px;
-   
+
 }
-.box-300{
+
+.box-300 {
     height: 300px;
     width: 300px;
     border: 1px solid black;
 }
-.box-400-600{
+
+.box-400-600 {
     height: 400px;
     width: 600px;
     border: 1px solid black;
 }
 
-.clear{
+.clear {
     clear: both;
 }
+
 /* fin Aspect général */
 
 
 
 /* début exo 01 background-color */
-.bg-color-1{
+.bg-color-1 {
+    background-color: #ff3b3b;
 }
-.bg-color-2{
+
+.bg-color-2 {
+    background-color: #350b0b;
 }
+
 /* fin exo 01 background-color */
 
 /* début exo 02 background*/
-.bg-1{
+.bg-1 {
+    background: linear-gradient(to top, rgb(231, 18, 18), rgba(70, 208, 32, 0.475));
 }
-.bg-2{
+
+.bg-2 {
+    background: radial-gradient(rgb(231, 18, 18), rgba(70, 208, 32, 0.475));
 }
-.bg-3{
+
+.bg-3 {
+    background: linear-gradient(to right, rgb(231, 18, 18), rgba(70, 208, 32, 0.475));
 }
-.bg-4{
+
+.bg-4 {
+    background: linear-gradient(to left bottom, rgb(231, 18, 18), rgba(70, 208, 32, 0.475));
 }
+
 /* fin exo 02 background*/
 
 /* début exo 03 background-position*/
-.img-1{ 
+.img-1 {
+    background-image: url(../images/bg_image.jpg);
+    background-position: top;
 }
-.img-2{
+
+.img-2 {
+    background-image: url(../images/bg_image.jpg);
+    background-position: 50%;
 }
-.img-3{
+
+.img-3 {
+    background-image: url(../images/bg_image.jpg);
+    background-position: 100%;
 }
-.img-4{
+
+.img-4 {
+    background-image: url(../images/bg_image.jpg);
+    background-position: 0%;
 }
+
 /* fin exo 03 background-position*/
 
 /* début exo 04 background-repeat*/
-.img-5{
+.img-5 {
+    background-image: url(../images/bg_image_petite.jpg);
+    background-repeat: no-repeat;
 }
-.img-6{
+
+.img-6 {
+    background-image: url(../images/bg_image_petite.jpg);
+    background-repeat: repeat-x;
 }
-.img-7{
+
+.img-7 {
+    background-image: url(../images/bg_image_petite.jpg);
+    background-repeat: repeat-y;
 }
+
 /* fin exo 04 background-repeat*/
 
 /* début exo 05 background-size*/
-.img-8{ 
+.img-8 {
+    background-image: url(../images/bg_image_petite.jpg);
+    background-size: 10%;
 }
-.img-9{ 
+
+.img-9 {
+    background-image: url(../images/bg_image_petite.jpg);
+    background-size: 17% 50%;
 }
-.img-10{
+
+.img-10 {
+    background-image: url(../images/bg_image_petite.jpg);
+    background-size: 100%;
 }
-.img-11{
-}
+
+.img-11 {}
+
 /* fin exo 05 background-size*/
 
 /* début exo 06 background-attachement*/
-.img-12{
-}
-.img-13{
-}
+.img-12 {}
+
+.img-13 {}
+
 /* fin exo 06 background-attachement*/
-
-
